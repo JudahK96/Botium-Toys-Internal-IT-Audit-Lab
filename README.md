@@ -36,7 +36,7 @@ Every screenshot should have some text explaining what the screenshot is about.
 | Y | Closed-circuit television (CCTV) surveillance | CCTV is installed/functioning at sotre's |
 | Y | Fire detection/prevention (firealarm, sprinkler system, etc.) | Functioning fire detection and prevention system. |
 
-| Payment Card Industry Data Security Standard (PCI DSS) |
+### (PCI DSS) Payment Card Industry Data Security Standard
 | Y/N Compliance | Best practice | Explanation |
 |----------------|---------------|-------------|
 | N | Only authorized users have access to customers’ credit card information | All employees have access to the company’s internal data |
@@ -45,3 +45,18 @@ Every screenshot should have some text explaining what the screenshot is about.
 | N | Adopt secure password management policies | Password policies are nominal and
 no password management |
 
+### (GDPR) General Data Protection Regulation
+| Y/N Compliance | Best practice | Explanation |
+|----------------|---------------|-------------|
+| N | E.U. customers’ data is kept private/secured | |
+| Y | | |
+| N | | |
+| Y | | |
+
+### (GDPR) General Data Protection Regulation
+| Y/N Compliance | Best practice | Explanation |
+|----------------|---------------|-------------|
+| N | | |
+| N | | |
+| Y | | |
+| N | | |
