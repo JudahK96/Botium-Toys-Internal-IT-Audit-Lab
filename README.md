@@ -7,15 +7,17 @@ The scope of this audit is defined as the entire security program at Botium Toys
 
 ### Skills Learned
 
-- Interal Security audit using CSF
+- Interal Security audit
 - Control and compliance checklist.
 
 ### Tools Used
 
-- NIST Cybersecurity Framework (CSF)
+- (CSF) NIST Cybersecurity Framework
+- (PCI DSS) Payment Card Industry Data Security Standard
+- (GDPR) General Data Protection Regulation
+- (SOC1/SOC2) System and Organizations Controls
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
 
 Every screenshot should have some text explaining what the screenshot is about.
 
@@ -42,21 +44,20 @@ Every screenshot should have some text explaining what the screenshot is about.
 | N | Only authorized users have access to customers’ credit card information | All employees have access to the company’s internal data |
 | N | Credit card information is accepted, processed, transmitted, and stored internally, in a secure environment | Credit card information is not encrypted and all employees currently have access to internal data, including customers’ credit card information |
 | N | Implement data encryption procedures to better secure credit card transaction touchpoints and data | The company does not currently use encryption to better ensure the confidentiality of customers’ financial information |
-| N | Adopt secure password management policies | Password policies are nominal and
-no password management |
+| N | Adopt secure password management policies | Password policies are nominal and no password management |
 
 ### (GDPR) General Data Protection Regulation
 | Y/N Compliance | Best practice | Explanation |
 |----------------|---------------|-------------|
-| N | E.U. customers’ data is kept private/secured | |
-| Y | | |
-| N | | |
-| Y | | |
+| N | E.U. customers’ data is kept private/secured | Does not currently use encryption to better ensure the confidentiality of customers’ financial information |
+| Y | There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach | Plan to notify E.U. customers within 72 hours of a data breach |
+| N | Ensure data is properly classified and inventoried | Current assets have been inventoried/listed, but not classified |
+| Y | Enforce privacy policies, procedures, and processes to properly document and maintain data | Privacy policies, procedures, and processes have been developed and enforced among IT team members and other employees |
 
-### (GDPR) General Data Protection Regulation
+### (SOC1/SOC2) System and Organizations Controls
 | Y/N Compliance | Best practice | Explanation |
 |----------------|---------------|-------------|
-| N | | |
-| N | | |
-| Y | | |
-| N | | |
+| N | User access policies are established | Controls of Least Privilege and separation of duties are not currently in place; all employees have access to internally stored data |
+| N | Sensitive data (PII/SPII) is confidential/private | Encryption is not currently used to better ensure the confidentiality of PII/SPII |
+| Y | Data integrity ensures the data is consistent, complete, accurate, and has been validated | Data integrity is in place |
+| N | Data is available to individuals authorized to access it | data is available to all employees, authorization needs to be limited to only the individuals who need access to it |
