@@ -35,3 +35,13 @@ Every screenshot should have some text explaining what the screenshot is about.
 | Y | Locks (offices, storefront, warehouse) | store’s physical location has locks |
 | Y | Closed-circuit television (CCTV) surveillance | CCTV is installed/functioning at sotre's |
 | Y | Fire detection/prevention (firealarm, sprinkler system, etc.) | Functioning fire detection and prevention system. |
+
+| Payment Card Industry Data Security Standard (PCI DSS) |
+| Y/N Compliance | Best practice | Explanation |
+|----------------|---------------|-------------|
+| N | Only authorized users have access to customers’ credit card information | All employees have access to the company’s internal data |
+| N | Credit card information is accepted, processed, transmitted, and stored internally, in a secure environment | Credit card information is not encrypted and all employees currently have access to internal data, including customers’ credit card information |
+| N | Implement data encryption procedures to better secure credit card transaction touchpoints and data | The company does not currently use encryption to better ensure the confidentiality of customers’ financial information |
+| N | Adopt secure password management policies | Password policies are nominal and
+no password management |
+
