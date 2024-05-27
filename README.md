@@ -21,17 +21,17 @@ Every screenshot should have some text explaining what the screenshot is about.
 
 | Y/N Compliance | Best practice | Explanation |
 |----------------|---------------|-------------|
-| N | Least Privilege |  |
-| N | Disaster recovery plans |  |
-| N | Password policies |  |
-| N | Separation of duties |  |
-| Y | Firewall |  |
-| N | Intrusion detection system (IDS) |  |
-| N | Backups |  |
-| Y | Antivirus software |  |
-| N | Manual monitoring, maintenance, and intervention for legacy systems  |  |
-| N | Encryption |  |
-| N | Password management system |  |
-| Y | Locks (offices, storefront, warehouse) |  |
-| Y | Closed-circuit television (CCTV) surveillance |  |
-| Y | Fire detection/prevention (firealarm, sprinkler system, etc.) |  |
+| N | Least Privilege | All employees have access to customer data; privileges need to be limited |
+| N | Disaster recovery plans | Disaster recovery plan needs to be implamented for business continuity |
+| N | Password policies | Minimal password requirements |
+| N | Separation of duties | CEO runs payroll and operations; risk of fraud/acess to critical data |
+| Y | Firewall | The existing firewall blocks traffic based on an appropriately defined set of security rules. |
+| N | Intrusion detection system (IDS) | IT department needs an IDS in place to help identify possible intrusions |
+| N | Backups | IT department needs tohave backups of critical data |
+| Y | Antivirus software | Antivirus software is installed and monitored regularly |
+| N | Manual monitoring, maintenance, and intervention for legacy systems  | Legacy systems aremonitored and maintained but no scheduale for this task and procedures/policies related to intervention are unclear, which could place these systems at risk of a breach |
+| N | Encryption | Not in use |
+| N | Password management system | No password management system in place |
+| Y | Locks (offices, storefront, warehouse) | store’s physical location has locks |
+| Y | Closed-circuit television (CCTV) surveillance | CCTV is installed/functioning at sotre's |
+| Y | Fire detection/prevention (firealarm, sprinkler system, etc.) | Functioning fire detection and prevention system. |
