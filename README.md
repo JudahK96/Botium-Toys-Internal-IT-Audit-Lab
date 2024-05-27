@@ -21,4 +21,17 @@ Every screenshot should have some text explaining what the screenshot is about.
 
 | Y/N Compliance | Best practice | Explanation |
 |----------------|---------------|-------------|
-|  |  |  |
+| N | Least Privilege |  |
+| N | Disaster recovery plans |  |
+| N | Password policies |  |
+| N | Separation of duties |  |
+| Y | Firewall |  |
+| N | Intrusion detection system (IDS) |  |
+| N | Backups |  |
+| Y | Antivirus software |  |
+| N | Manual monitoring, maintenance, and intervention for legacy systems  |  |
+| N | Encryption |  |
+| N | Password management system |  |
+| Y | Locks (offices, storefront, warehouse) |  |
+| Y | Closed-circuit television (CCTV) surveillance |  |
+| Y | Fire detection/prevention (firealarm, sprinkler system, etc.) |  |
