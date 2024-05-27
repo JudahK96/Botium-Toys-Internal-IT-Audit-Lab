@@ -17,10 +17,11 @@ The scope of this audit is defined as the entire security program at Botium Toys
 - (GDPR) General Data Protection Regulation
 - (SOC1/SOC2) System and Organizations Controls
 
-## Steps
+## Botium Toys Overview
+![Screenshot 2024-05-27 145515](https://github.com/JudahK96/Botium-Toys-Internal-IT-Audit-Lab/assets/170769994/2006f802-49d5-4890-99c9-c1bd3b109ff6)
 
-Every screenshot should have some text explaining what the screenshot is about.
-
+## Audit Assessment
+### Copmpliance Standards
 | Y/N Compliance | Best practice | Explanation |
 |----------------|---------------|-------------|
 | N | Least Privilege | All employees have access to customer data; privileges need to be limited |
